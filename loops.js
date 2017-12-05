@@ -8,6 +8,7 @@ function forLoop(array){
   return array;
 }
 
+<<<<<<< HEAD
 let n = 100;
 function whileLoop(n){
   while (n>0){
@@ -28,4 +29,11 @@ function doWhileLoop(array){
   array.pop();
   while (array.length > 0 && maybeTrue());
   return array;
+=======
+function whileLoop(n){
+  while (number>0){
+    console.log(--n)
+  }
+  return ("done");
+>>>>>>> fe4e70c27d7ab21366596d1a11b5ad4f4bf900a2
 }
